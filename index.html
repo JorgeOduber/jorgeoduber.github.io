@@ -6,9 +6,9 @@
 -->
 <html>
 	<head>
-		<title>Análisis Cluster </title>
+		<title>Inicio</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -18,8 +18,8 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><strong>Jorge Oduber</strong> <span>Data Analyst</span></a>
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Jorge Oduber</strong> <span>Data analyst</a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -35,31 +35,99 @@
 						</ul>
 						<ul class="actions stacked">
 							<li><a href="index.html" class="button primary fit">Inicio</a></li>
-						
-						</ul>
+							</ul>
 					</nav>
 
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>Hola, mi nombre es Jorge</h1>
+							</header>
+							<div class="content">
+								<p>Quiero ayudarte a tomar las mejores decisiones <br />
+								basadas en datos. Con experticia en SAS, SQL, SPSS, <br />
+								 R studio y Power Bi <a href="https://twitter.com/joduberm">@joduberm</a> </p>
+								 
+								
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Portafolio</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
 				<!-- Main -->
-					<div id="main" class="alt">
+					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic29.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="manipulacion.html" class="link">Data Manipulation and Data Cleaning</a></h3>
+										<p>Manipulación y Limpieza de datos</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic25.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="wordcloud.html" class="link">Worcloud</a></h3>
+										<p>Nube de palabras</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic28.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="exploracion.html" class="link">Data Exploration</a></h3>
+										<p>Exporación de datos</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic26.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="arboles.html" class="link">Decision Tree and <p>Random Forest</p> </a></h3>
+										<p>Árboles de Decisión </p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic32.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="regresion.html" class="link">Linear Regression</a></h3>
+										<p>Regresión Lineal</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic30.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="Cluster.html" class="link">Análisis de Cluster</a></h3>
+										<p>Análisis de conglomerados </p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
 								<div class="inner">
 									<header class="major">
-										<h1>Análisis de Cluster</h1>
+										<h2>Machine Learning - Otros proyectos (EN CONSTRUCCION) </h2>
 									</header>
-									<span class="image main"><img src="images/Jamonendiablado3.png" alt="" /></span>
-									<p> En este proyecto hice un estudio de prueba de producto para determinar grupos de personas (cluster) de acuerdo a las preferencias de las características de un producto de mercado (jamón endiablado).
-										Se tomó una muestra (526 individuos), donde a través de un cuestionario se recolectó información acerca de sus preferencias con respecto a este producto como,
-										color, sabor, olor, consistencia, presentación, precio, tipo de envase y de acuerdo a esas preferencias expresadas el cliente quería una distribucion en 2 mínimo y 4 cluster como máximo. 
-										Usé dos paquetes estadísticos (SPSS y R studio) y varias técnicas de cluster para al final obtener 3 y 4 cluster y que el cliente decidiera con cual podría trabajar.
-										</p>
-										<ul class="actions">
-											<li><a href="https://github.com/JorgeOduber/Analisis-de-Cluster.git" class="button next scrolly">Ver proyecto</a></li>
-											<li><a href="https://drive.google.com/file/d/1BCxGIEKIx9BhrDZtZ1ucu1Ij3uNfYce2/view" class="button next scrolly">Ver video </a></li>
-										</ul>
-									<p></p>
-									<p></p>
+									<p>En este apartado encontrarás otros proyectos realizados con el uso de machine learning y otras técnicas estadísticas.</p>
+									<ul class="actions">
+										<li><a href="servicios.html" class="button next">Proyectos</a></li>
+									</ul>
 								</div>
 							</section>
 
@@ -87,7 +155,7 @@
 						  <ul class="actions">
 							<li><input type="submit" value="Enviar mensaje" class="primary" /></li>
 							<li><input type="reset" value="Limpiar" /></li>
-							<li><input type="hidden" name="_next" value="http://127.0.0.1:5500/machine.html" /></li>
+							<li><input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html" /></li>
 							<li><input type="hidden" name="_captcha" value="false" /></li>
 						  </ul>
 						</form>
